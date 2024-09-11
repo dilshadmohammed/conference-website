@@ -2,19 +2,24 @@ import { Link } from "react-router-dom"
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800 p-4">
-    <div className="flex justify-between items-center">
-      <div className="text-white text-2xl font-bold">
-        <h1></h1>
+    <nav className="bg-gray-800 sticky top-0 left-0 right-0 z-50">
+    <div className="flex justify-between items-center py-3 px-8">
+      <div>
+          <img src="src/assets/nssce_logo.svg" alt="nssce_logo" />
       </div>
-      <ul className="flex space-x-6">
+      <ul className="flex space-x-14 text-white text-xl font-medium items-center">
         <li>
-          <Link to="/" className="text-white hover:text-gray-300">
+          <Link to="/" className="hover:text-gray-300">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/committe" className="text-white hover:text-gray-300">
+          <Link to="/about" className="hover:text-gray-300">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="/committe" className="hover:text-gray-300">
             Committe
           </Link>
         </li>
@@ -24,12 +29,12 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/registration" className="text-white hover:text-gray-300">
+          <Link to="/registration" className="hover:text-gray-300">
             Registration
           </Link>
         </li>
         <li>
-          <Link to="/contact" className="text-white hover:text-gray-300">
+          <Link to="/contact" className="hover:text-gray-300">
             Contact
           </Link>
         </li>
