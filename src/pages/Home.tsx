@@ -1,10 +1,7 @@
-import { Link } from "react-router-dom"
-import Navbar from "../components/Navbar"
 
 function Home() {
   return (
     <>
-    <Navbar/>
     <main className="flex flex-col items-center justify-center bg-gray-100 p-4 h-[615px]">
         <h2 className="text-xl text-gray-600">NSS College of Engineering</h2>
         <h2 className="text-xl text-gray-600 mb-4">
