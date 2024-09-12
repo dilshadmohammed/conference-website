@@ -1,16 +1,13 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-// import Committe from './pages/Committe';
-// import Speakers from './pages/Speakers';
-// import Registration from './pages/Registration';
-// import Contact from './pages/Contact';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
+import Home from "./pages/Home";
 import About from './pages/About';
 import OrganizingCommittee from './pages/OrganizingCommittee';
 import Layout from './layouts/Layout';
 import AdvisoryCommittee from './pages/AdvisoryCommittee';
 import Speakers from './pages/Speakers';
 import UnderDevelopment from './pages/UnderDevelopment';
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -24,6 +21,7 @@ function App() {
           <Route path="committe/advisory" element={<AdvisoryCommittee />} />
           <Route path="speakers" element={<Speakers />} />
           <Route path="registration" element={<UnderDevelopment/>} />
+          <Route path="contact" element={<Contact/>}/>
         </Route>
       </Routes>
     </Router>
