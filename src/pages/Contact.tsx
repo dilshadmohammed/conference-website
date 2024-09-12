@@ -18,7 +18,6 @@ function Map() {
 function Contact() {
   return (
     <>
-      <Navbar />
       <h1 className="py-8 text-3xl font-bold mb-4 text-center">
         Address for correspondence
       </h1>
