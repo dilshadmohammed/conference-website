@@ -2,7 +2,7 @@
 function About() {
     return (
         <>
-      <main className="max-w-4xl mx-auto px-4 py-8">
+      <main className="max-w-4xl mx-auto px-6 py-8">
         <h1 className="text-3xl font-bold mb-4 text-center">About NGIST'25</h1>
         <p className="text-lg leading-relaxed mb-8">
           NGIST aims at bringing the researchers working in various areas of

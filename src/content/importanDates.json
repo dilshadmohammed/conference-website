@@ -1,0 +1,38 @@
+[
+    {
+      "date": "10 April 2025",
+      "event": "Last date for registration",
+      "borderColor": "blue-500",
+      "textColor": "blue-600",
+      "side": "right"
+    },
+    {
+      "date": "10 April 2025",
+      "event": "Last date of camera-ready paper submission",
+      "borderColor": "green-500",
+      "textColor": "green-600",
+      "side": "left"
+    },
+    {
+      "date": "25 March 2025",
+      "event": "Intimation of acceptance",
+      "borderColor": "yellow-500",
+      "textColor": "yellow-600",
+      "side": "right"
+    },
+    {
+      "date": "10 March 2025",
+      "event": "Last date for full paper submission",
+      "borderColor": "red-500",
+      "textColor": "red-600",
+      "side": "left"
+    },
+    {
+      "date": "29 April – 30 April 2025",
+      "event": "Conference date",
+      "borderColor": "purple-500",
+      "textColor": "purple-600",
+      "side": "right"
+    }
+  ]
+  

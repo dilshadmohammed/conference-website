@@ -17,8 +17,8 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} /> {/* Default route */}
           <Route path="about" element={<About />} />
-          <Route path="committe/organizing" element={<OrganizingCommittee />} />
-          <Route path="committe/advisory" element={<AdvisoryCommittee />} />
+          <Route path="committee/organizing" element={<OrganizingCommittee />} />
+          <Route path="committee/advisory" element={<AdvisoryCommittee />} />
           <Route path="speakers" element={<Speakers />} />
           <Route path="registration" element={<UnderDevelopment/>} />
           <Route path="contact" element={<Contact/>}/>
