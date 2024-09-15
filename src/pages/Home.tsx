@@ -16,10 +16,10 @@ function Home() {
         <h2 className="text-lg md:text-2xl text-center text-gray-600">
           April 29-30, 2025
         </h2>
-        <img src="src/assets/udhe.png" alt="" />
+        <img src="/udhe.png" alt="udhe" />
         
         <div className="w-full h-fit mt-28 mb-8">
-          <h1 className="text-3xl text-center font-semibold">Important Dates</h1>
+          <h1 className="text-3xl text-center font-semibold p-2">Important Dates</h1>
           <ImportantDates/>
         </div>
       </main>
